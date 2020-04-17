@@ -1,0 +1,20 @@
+{
+  "name": "george",
+  "version": "0.0.1",
+  "description": "A proxy for capturing local HTTP traffic",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jupiter",
+  "license": "ISC",
+  "bin": {
+    "george": "./bin/george"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "bson": "^0.2.19",
+    "http-proxy": "^1.8.1",
+    "minimist": "^1.1.0"
+  }
+}
